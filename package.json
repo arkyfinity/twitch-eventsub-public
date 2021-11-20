@@ -1,0 +1,43 @@
+{
+  "name": "twitch-eventsub-public",
+  "version": "0.0.1",
+  "description": "Public repo for personal Twitch EventSubs",
+  "main": "server.js",
+  "private": "true",
+  "scripts": {
+      "start": "babel-node -r dotenv/config server.js",
+      "test": "babel-node -r dotenv/config test.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.3",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@moso/eslint-config-basic": "^0.2.10",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkyfinity/twitch-eventsub-public.git"
+  },
+  "author": {
+    "name": "Arky",
+    "email": "hello@arky.dk",
+    "url": "https://arky.dk"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arkyfinity/twitch-eventsub-public/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
